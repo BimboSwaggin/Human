@@ -2,7 +2,7 @@
 public class Adult extends Human {
 	
 	String placeOfWork;	//(mutable)
-	String occupation;	//(mutable)
+	String occupation;	
 
 	public Adult(int birthYear, int birthMonth, int birthDay, String firstName, String lastName, Gender gender, String placeOfWork, String occupation) {
 		super(birthYear, birthMonth, birthDay, firstName, lastName, gender);
